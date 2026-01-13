@@ -25,12 +25,18 @@ The dataset is not included in this repository.
 COCO 2017 dataset:  
 https://www.kaggle.com/datasets/awsaf49/coco-2017-dataset
 ## FILES
-Fruit Detector AI Project Teams#3.pdf is the content of project showcase
+Fruit Detector AI Project Teams#3.pdf is the content of project showcase.
+
 Yolo mechanism.pdf is the research paper that we based on to implement key functions.
+
 dataset_coco.py is the file processing COCO raw data.
+
 loss_yolo.py implements the loss function.
+
 utils_bbx.py calculates the IoU of two bounding boxes.
+
 model_yolo.py rebuilds the Yolo model.
+
 train.py trains the rebuilt Yolo model.
 
 
