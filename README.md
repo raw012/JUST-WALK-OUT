@@ -10,21 +10,21 @@ is used to identify and track products.
 The main goal is to understand how YOLO works internally,  
 including CNN-based feature extraction, grid-based prediction,  
 IoU-based responsibility assignment, and loss optimization.
-## Function Of The Model
+## Functions
 The model takes an RGB image as input, divides it into  
 a fixed grid, and predicts bounding boxes, confidence scores,  
 and class probabilities in a single forward pass.
-## Strength of The Project
+## Strength
 This single-pass design enables fast, end-to-end detection  
 and is suitable for real-time applications.
-## Datasets (COCO 2017)
+## Data Source (COCO 2017)
 The project follows the COCO 2017 object detection format  
 and uses a filtered subset of fruit categories  
 (apple, banana, orange).
 The dataset is not included in this repository.  
 COCO 2017 dataset:  
 https://www.kaggle.com/datasets/awsaf49/coco-2017-dataset
-## FILE FUNCTIONS
+## FILES
 Fruit Detector AI Project Teams#3.pdf is the content of project showcase
 Yolo mechanism.pdf is the research paper that we based on to implement key functions.
 dataset_coco.py is the file processing COCO raw data.
